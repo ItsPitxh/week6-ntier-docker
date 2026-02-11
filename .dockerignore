@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Development
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node modules (จะ install ใหม่ใน container)
+node_modules/
+
+# Test files
+__tests__/
+*.test.js
+
+# Build artifacts
+dist/
+build/
